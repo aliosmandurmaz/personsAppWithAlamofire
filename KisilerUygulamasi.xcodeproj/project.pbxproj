@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4184B51E547726E776FC1452 /* Pods_KisilerUygulamasi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A847779457C24D480A0C2543 /* Pods_KisilerUygulamasi.framework */; };
+		80EFA5A923433282EF57DF58 /* Pods_KisilerUygulamasi_KisilerUygulamasiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B6101AD13082206BD42CDE /* Pods_KisilerUygulamasi_KisilerUygulamasiUITests.framework */; };
+		A579083FA6BDE4E583F7B02E /* Pods_KisilerUygulamasiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BB1205C3B1F182634C8BE0 /* Pods_KisilerUygulamasiTests.framework */; };
 		E6B1CB6727E9149A008408CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CB6627E9149A008408CC /* AppDelegate.swift */; };
 		E6B1CB6927E9149A008408CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CB6827E9149A008408CC /* SceneDelegate.swift */; };
 		E6B1CB6B27E9149A008408CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CB6A27E9149A008408CC /* ViewController.swift */; };
@@ -16,6 +19,12 @@
 		E6B1CB7E27E9149C008408CC /* KisilerUygulamasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CB7D27E9149C008408CC /* KisilerUygulamasiTests.swift */; };
 		E6B1CB8827E9149C008408CC /* KisilerUygulamasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CB8727E9149C008408CC /* KisilerUygulamasiUITests.swift */; };
 		E6B1CB8A27E9149C008408CC /* KisilerUygulamasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CB8927E9149C008408CC /* KisilerUygulamasiUITestsLaunchTests.swift */; };
+		E6B1CB9727E91587008408CC /* KisiHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CB9627E91587008408CC /* KisiHucreTableViewCell.swift */; };
+		E6B1CB9B27E91802008408CC /* KisiEkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CB9A27E91802008408CC /* KisiEkleViewController.swift */; };
+		E6B1CB9D27E91823008408CC /* KisiGuncelleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CB9C27E91823008408CC /* KisiGuncelleViewController.swift */; };
+		E6B1CB9F27E9184C008408CC /* KisiDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CB9E27E9184C008408CC /* KisiDetayViewController.swift */; };
+		E6B1CBA527E9FF28008408CC /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CBA427E9FF28008408CC /* Kisiler.swift */; };
+		E6B1CBA727E9FFC1008408CC /* KisiCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B1CBA627E9FFC1008408CC /* KisiCevap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1243AD45A6B44E9F9C926221 /* Pods-KisilerUygulamasi-KisilerUygulamasiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisilerUygulamasi-KisilerUygulamasiUITests.release.xcconfig"; path = "Target Support Files/Pods-KisilerUygulamasi-KisilerUygulamasiUITests/Pods-KisilerUygulamasi-KisilerUygulamasiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		47B6101AD13082206BD42CDE /* Pods_KisilerUygulamasi_KisilerUygulamasiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KisilerUygulamasi_KisilerUygulamasiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76855CCE867A910E8C75C3B6 /* Pods-KisilerUygulamasiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisilerUygulamasiTests.debug.xcconfig"; path = "Target Support Files/Pods-KisilerUygulamasiTests/Pods-KisilerUygulamasiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C469AB40815B9CA30467983 /* Pods-KisilerUygulamasi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisilerUygulamasi.release.xcconfig"; path = "Target Support Files/Pods-KisilerUygulamasi/Pods-KisilerUygulamasi.release.xcconfig"; sourceTree = "<group>"; };
+		97BB1205C3B1F182634C8BE0 /* Pods_KisilerUygulamasiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KisilerUygulamasiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A847779457C24D480A0C2543 /* Pods_KisilerUygulamasi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KisilerUygulamasi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C851641248FB5327B33C2C4C /* Pods-KisilerUygulamasiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisilerUygulamasiTests.release.xcconfig"; path = "Target Support Files/Pods-KisilerUygulamasiTests/Pods-KisilerUygulamasiTests.release.xcconfig"; sourceTree = "<group>"; };
 		E6B1CB6327E9149A008408CC /* KisilerUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KisilerUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B1CB6627E9149A008408CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6B1CB6827E9149A008408CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,14 @@
 		E6B1CB8327E9149C008408CC /* KisilerUygulamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KisilerUygulamasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B1CB8727E9149C008408CC /* KisilerUygulamasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerUygulamasiUITests.swift; sourceTree = "<group>"; };
 		E6B1CB8927E9149C008408CC /* KisilerUygulamasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerUygulamasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6B1CB9627E91587008408CC /* KisiHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiHucreTableViewCell.swift; sourceTree = "<group>"; };
+		E6B1CB9A27E91802008408CC /* KisiEkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiEkleViewController.swift; sourceTree = "<group>"; };
+		E6B1CB9C27E91823008408CC /* KisiGuncelleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiGuncelleViewController.swift; sourceTree = "<group>"; };
+		E6B1CB9E27E9184C008408CC /* KisiDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayViewController.swift; sourceTree = "<group>"; };
+		E6B1CBA427E9FF28008408CC /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		E6B1CBA627E9FFC1008408CC /* KisiCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiCevap.swift; sourceTree = "<group>"; };
+		F92028BD7DBEE98BCD6B0736 /* Pods-KisilerUygulamasi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisilerUygulamasi.debug.xcconfig"; path = "Target Support Files/Pods-KisilerUygulamasi/Pods-KisilerUygulamasi.debug.xcconfig"; sourceTree = "<group>"; };
+		FB6366E1E84D76F0D09CEC67 /* Pods-KisilerUygulamasi-KisilerUygulamasiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KisilerUygulamasi-KisilerUygulamasiUITests.debug.xcconfig"; path = "Target Support Files/Pods-KisilerUygulamasi-KisilerUygulamasiUITests/Pods-KisilerUygulamasi-KisilerUygulamasiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4184B51E547726E776FC1452 /* Pods_KisilerUygulamasi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A579083FA6BDE4E583F7B02E /* Pods_KisilerUygulamasiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80EFA5A923433282EF57DF58 /* Pods_KisilerUygulamasi_KisilerUygulamasiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DECD839137160C04029FDB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A847779457C24D480A0C2543 /* Pods_KisilerUygulamasi.framework */,
+				47B6101AD13082206BD42CDE /* Pods_KisilerUygulamasi_KisilerUygulamasiUITests.framework */,
+				97BB1205C3B1F182634C8BE0 /* Pods_KisilerUygulamasiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3066B0B794F705C87CBABF43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F92028BD7DBEE98BCD6B0736 /* Pods-KisilerUygulamasi.debug.xcconfig */,
+				8C469AB40815B9CA30467983 /* Pods-KisilerUygulamasi.release.xcconfig */,
+				FB6366E1E84D76F0D09CEC67 /* Pods-KisilerUygulamasi-KisilerUygulamasiUITests.debug.xcconfig */,
+				1243AD45A6B44E9F9C926221 /* Pods-KisilerUygulamasi-KisilerUygulamasiUITests.release.xcconfig */,
+				76855CCE867A910E8C75C3B6 /* Pods-KisilerUygulamasiTests.debug.xcconfig */,
+				C851641248FB5327B33C2C4C /* Pods-KisilerUygulamasiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E6B1CB5A27E9149A008408CC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +133,8 @@
 				E6B1CB7C27E9149C008408CC /* KisilerUygulamasiTests */,
 				E6B1CB8627E9149C008408CC /* KisilerUygulamasiUITests */,
 				E6B1CB6427E9149A008408CC /* Products */,
+				3066B0B794F705C87CBABF43 /* Pods */,
+				0DECD839137160C04029FDB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +158,12 @@
 				E6B1CB6F27E9149C008408CC /* Assets.xcassets */,
 				E6B1CB7127E9149C008408CC /* LaunchScreen.storyboard */,
 				E6B1CB7427E9149C008408CC /* Info.plist */,
+				E6B1CB9627E91587008408CC /* KisiHucreTableViewCell.swift */,
+				E6B1CB9A27E91802008408CC /* KisiEkleViewController.swift */,
+				E6B1CB9C27E91823008408CC /* KisiGuncelleViewController.swift */,
+				E6B1CB9E27E9184C008408CC /* KisiDetayViewController.swift */,
+				E6B1CBA427E9FF28008408CC /* Kisiler.swift */,
+				E6B1CBA627E9FFC1008408CC /* KisiCevap.swift */,
 			);
 			path = KisilerUygulamasi;
 			sourceTree = "<group>";
@@ -134,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6B1CB8D27E9149C008408CC /* Build configuration list for PBXNativeTarget "KisilerUygulamasi" */;
 			buildPhases = (
+				EBD769C24C9862BA745EB9AE /* [CP] Check Pods Manifest.lock */,
 				E6B1CB5F27E9149A008408CC /* Sources */,
 				E6B1CB6027E9149A008408CC /* Frameworks */,
 				E6B1CB6127E9149A008408CC /* Resources */,
+				110A4E93DFDA0314366C6EFE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6B1CB9027E9149C008408CC /* Build configuration list for PBXNativeTarget "KisilerUygulamasiTests" */;
 			buildPhases = (
+				15CBA8F4B5D626E53D5904D7 /* [CP] Check Pods Manifest.lock */,
 				E6B1CB7527E9149C008408CC /* Sources */,
 				E6B1CB7627E9149C008408CC /* Frameworks */,
 				E6B1CB7727E9149C008408CC /* Resources */,
@@ -169,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6B1CB9327E9149C008408CC /* Build configuration list for PBXNativeTarget "KisilerUygulamasiUITests" */;
 			buildPhases = (
+				887BDC9F5B16E61A7064D131 /* [CP] Check Pods Manifest.lock */,
 				E6B1CB7F27E9149C008408CC /* Sources */,
 				E6B1CB8027E9149C008408CC /* Frameworks */,
 				E6B1CB8127E9149C008408CC /* Resources */,
+				E894057563C321F2786303D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +316,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		110A4E93DFDA0314366C6EFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KisilerUygulamasi/Pods-KisilerUygulamasi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KisilerUygulamasi/Pods-KisilerUygulamasi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KisilerUygulamasi/Pods-KisilerUygulamasi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15CBA8F4B5D626E53D5904D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KisilerUygulamasiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		887BDC9F5B16E61A7064D131 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KisilerUygulamasi-KisilerUygulamasiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E894057563C321F2786303D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KisilerUygulamasi-KisilerUygulamasiUITests/Pods-KisilerUygulamasi-KisilerUygulamasiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KisilerUygulamasi-KisilerUygulamasiUITests/Pods-KisilerUygulamasi-KisilerUygulamasiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KisilerUygulamasi-KisilerUygulamasiUITests/Pods-KisilerUygulamasi-KisilerUygulamasiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBD769C24C9862BA745EB9AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KisilerUygulamasi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E6B1CB5F27E9149A008408CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E6B1CB6B27E9149A008408CC /* ViewController.swift in Sources */,
+				E6B1CB9727E91587008408CC /* KisiHucreTableViewCell.swift in Sources */,
 				E6B1CB6727E9149A008408CC /* AppDelegate.swift in Sources */,
+				E6B1CBA527E9FF28008408CC /* Kisiler.swift in Sources */,
+				E6B1CBA727E9FFC1008408CC /* KisiCevap.swift in Sources */,
+				E6B1CB9F27E9184C008408CC /* KisiDetayViewController.swift in Sources */,
 				E6B1CB6927E9149A008408CC /* SceneDelegate.swift in Sources */,
+				E6B1CB9D27E91823008408CC /* KisiGuncelleViewController.swift in Sources */,
+				E6B1CB9B27E91802008408CC /* KisiEkleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +606,7 @@
 		};
 		E6B1CB8E27E9149C008408CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92028BD7DBEE98BCD6B0736 /* Pods-KisilerUygulamasi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +634,7 @@
 		};
 		E6B1CB8F27E9149C008408CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C469AB40815B9CA30467983 /* Pods-KisilerUygulamasi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +662,7 @@
 		};
 		E6B1CB9127E9149C008408CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76855CCE867A910E8C75C3B6 /* Pods-KisilerUygulamasiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +687,7 @@
 		};
 		E6B1CB9227E9149C008408CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C851641248FB5327B33C2C4C /* Pods-KisilerUygulamasiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +712,7 @@
 		};
 		E6B1CB9427E9149C008408CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6366E1E84D76F0D09CEC67 /* Pods-KisilerUygulamasi-KisilerUygulamasiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +735,7 @@
 		};
 		E6B1CB9527E9149C008408CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1243AD45A6B44E9F9C926221 /* Pods-KisilerUygulamasi-KisilerUygulamasiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
